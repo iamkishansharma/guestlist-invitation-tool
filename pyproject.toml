@@ -1,0 +1,10 @@
+[project]
+name = "invitation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.2.3",
+    "pillow>=11.2.1",
+]
