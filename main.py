@@ -3,14 +3,12 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # === CONFIGURATION ===
-CSV_PATH = "guests.csv"              # Path to your CSV file
-IMAGE_PATH = "invitation_og.jpg"     # Path to the original image
-OUTPUT_DIR = "output_invitations"    # Folder where personalized images will be saved
-# FONT_PATH = "arial.ttf"            # Path to a .ttf font file (can use default system font)
-# FONT_PATH = "font_notodevnagari_devnagari.ttf"    
-FONT_PATH = "fonts/font_sahadeva.ttf"              
-FONT_SIZE = 36                       # Size of the guest name text
-TEXT_POSITION = (330, 382)           # (x, y) position on the image to draw the name
+CSV_PATH = "guests.csv"               # Path to your CSV file
+IMAGE_PATH = "invitation_og.jpg"      # Path to the original image
+OUTPUT_DIR = "output_invitations"     # Folder where personalized images will be saved
+FONT_PATH = "fonts/font_sahadeva.ttf" # Path to a .ttf font file (can use default system font)
+FONT_SIZE = 36                        # Size of the guest name text
+TEXT_POSITION = (330, 382)            # (x, y) position on the image to draw the name
 TEXT_COLOR = (255, 255, 255)          # RGB color of the text
 
 # === VALIDATE FILES ===
